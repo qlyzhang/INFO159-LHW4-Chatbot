@@ -25,12 +25,16 @@ We trained our chatbot using `movie_lines.tsv` from the [Cornell Movie-Dialogs C
 ## How to run the code
 * run the code 
 ```
-python3 LHW4_Seq2Seq Chatbot.py
+python3 LHW4_Seq2Seq_Chatbot.py
 ```
+
+<!--
 * If you want to use our pretrained model:
 ```
-python3 LHW4_Seq2Seq Chatbot.py --pretrained
+python3 LHW4_Seq2Seq_Chatbot.py --pretrained
 ```
+-->
+
 * See the jupyter notebook [here](https://github.com/qlyzhang/INFO159-LHW4-Chatbot/blob/master/LHW4_Seq2Seq_Chatbot.ipynb)
 
 
@@ -74,6 +78,10 @@ Human > I am just kidding.
 
 Bot > i m going to take you to the air .
 
+Human > you are under arrest
+
+Bot > i m not .
+
 Human > hjvksbv asdkb
 
 Bot > Sorry, I don't know what you mean
@@ -82,3 +90,7 @@ Bot > Sorry, I don't know what you mean
 Human > Are you my friend?
 
 Bot > i m fine
+
+Human > Are you human?
+
+Bot > yes
