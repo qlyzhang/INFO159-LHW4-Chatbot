@@ -4,6 +4,8 @@
 
 **Github link:** [https://github.com/qlyzhang/INFO159-LHW4-Chatbot](https://github.com/qlyzhang/INFO159-LHW4-Chatbot)
 
+**Model link ** [https://drive.google.com/file/d/1qVZuQTbLPXZgrjNF09VjSCyPCfwxsgtE/view?usp=sharing]
+
 This is a pytorch seq2seq Chatbot for [INFO159 Natural Language Processing in UC Berkeley](https://http://people.ischool.berkeley.edu/~dbamman/nlp18.html) 
 
 We implemented [A Neural Conversational Model](https://arxiv.org/pdf/1506.05869.pdf) which is a sequence-to-sequence model introduced in [lecture23](http://people.ischool.berkeley.edu/~dbamman/nlpF18/slides/23_dialogue.pdf)
