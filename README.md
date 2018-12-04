@@ -4,7 +4,7 @@
 
 **Github link:** [https://github.com/qlyzhang/INFO159-LHW4-Chatbot](https://github.com/qlyzhang/INFO159-LHW4-Chatbot)
 
-**Model link: ** [https://drive.google.com/file/d/1qVZuQTbLPXZgrjNF09VjSCyPCfwxsgtE/view?usp=sharing](https://drive.google.com/file/d/1qVZuQTbLPXZgrjNF09VjSCyPCfwxsgtE/view?usp=sharing)
+**Model link:** [https://drive.google.com/file/d/1qVZuQTbLPXZgrjNF09VjSCyPCfwxsgtE/view?usp=sharing](https://drive.google.com/file/d/1qVZuQTbLPXZgrjNF09VjSCyPCfwxsgtE/view?usp=sharing)
 
 This is a pytorch seq2seq Chatbot for [INFO159 Natural Language Processing in UC Berkeley](https://http://people.ischool.berkeley.edu/~dbamman/nlp18.html) 
 
