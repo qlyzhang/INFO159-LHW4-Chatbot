@@ -4,7 +4,7 @@
 
 **Attention!!!:** If your computer is pure cpu-machine. You need to write 
 
-chat_model = torch.load('model.pth',map_location=lambda storage, loc: storage)
+    chat_model = torch.load('model.pth',map_location=lambda storage, loc: storage)
 
 in the "test of model" function
 
