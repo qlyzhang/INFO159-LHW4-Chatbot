@@ -1,13 +1,14 @@
 # INFO159-LHW4-Chatbot
 
 **Group member:** Changxu Zhang & You Zhang
+
 **Github link:** [https://github.com/qlyzhang/INFO159-LHW4-Chatbot](https://github.com/qlyzhang/INFO159-LHW4-Chatbot)
 
 This is a pytorch seq2seq Chatbot for [INFO159 Natural Language Processing in UC Berkeley](https://http://people.ischool.berkeley.edu/~dbamman/nlp18.html) 
 
 We implemented [A Neural Conversational Model](https://arxiv.org/pdf/1506.05869.pdf) which is a sequence-to-sequence model introduced in [lecture23](http://people.ischool.berkeley.edu/~dbamman/nlpF18/slides/23_dialogue.pdf)
 
-We trained our chatbot using `movie_lines.tsv` from the [Cornell Movie-Dialogs Corpus](https://www.cs.cornell.edu/~cristian/Cornell_Movie-Dialogs_Corpus.html)
+We trained our chatbot on NVIDIA GTX 1070 with data  `movie_lines.tsv` from the [Cornell Movie-Dialogs Corpus](https://www.cs.cornell.edu/~cristian/Cornell_Movie-Dialogs_Corpus.html)
 
 ## Requirements
 * python 3
@@ -70,13 +71,13 @@ Human > How are you ?
 
 Bot > fine
 
-Human > Where are you from?
+Human > Who are you ?
 
-Bot > south america.
+Bot > i m not sure.
 
-Human > I am just kidding.
+Human > that is cool
 
-Bot > i m going to take you to the air .
+Bot > you know what i m doing here ?
 
 Human > you are under arrest
 
@@ -91,6 +92,10 @@ Human > Are you my friend?
 
 Bot > i m fine
 
+Human > i don't know
+
+Bot > you re a good time .
+
 Human > Are you human?
 
-Bot > yes
+Bot > yes .
