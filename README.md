@@ -2,6 +2,12 @@
 
 **Group member:** Changxu Zhang & You Zhang
 
+**Attention!!!:** If your computer is pure cpu-machine. You need to write 
+
+chat_model = torch.load('model.pth',map_location=lambda storage, loc: storage)
+
+in the "test of model" function
+
 **Github link:** [https://github.com/qlyzhang/INFO159-LHW4-Chatbot](https://github.com/qlyzhang/INFO159-LHW4-Chatbot)
 
 **Model link:** [https://drive.google.com/file/d/1qVZuQTbLPXZgrjNF09VjSCyPCfwxsgtE/view?usp=sharing](https://drive.google.com/file/d/1qVZuQTbLPXZgrjNF09VjSCyPCfwxsgtE/view?usp=sharing)
