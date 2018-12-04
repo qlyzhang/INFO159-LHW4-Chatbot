@@ -1,6 +1,7 @@
 # INFO159-LHW4-Chatbot
 
 **Group member:** Changxu Zhang & You Zhang
+**Github link:** [https://github.com/qlyzhang/INFO159-LHW4-Chatbot](https://github.com/qlyzhang/INFO159-LHW4-Chatbot)
 
 This is a pytorch seq2seq Chatbot for [INFO159 Natural Language Processing in UC Berkeley](https://http://people.ischool.berkeley.edu/~dbamman/nlp18.html) 
 
@@ -30,7 +31,7 @@ python3 LHW4_Seq2Seq Chatbot.py
 ```
 python3 LHW4_Seq2Seq Chatbot.py --pretrained
 ```
-* See the jupyter notebook [here](https://github.com/qlyzhang/INFO159-LHW4-Chatbot/blob/master/LHW4_Seq2Seq%20Chatbot.ipynb)
+* See the jupyter notebook [here](https://github.com/qlyzhang/INFO159-LHW4-Chatbot/blob/master/LHW4_Seq2Seq_Chatbot.ipynb)
 
 
 ## What we do
@@ -69,6 +70,10 @@ Human > Where are you from?
 
 Bot > south america.
 
+Human > I am just kidding.
+
+Bot > i m going to take you to the air .
+
 Human > hjvksbv asdkb
 
 Bot > Sorry, I don't know what you mean
@@ -77,5 +82,3 @@ Bot > Sorry, I don't know what you mean
 Human > Are you my friend?
 
 Bot > i m fine
-
-Human > 
