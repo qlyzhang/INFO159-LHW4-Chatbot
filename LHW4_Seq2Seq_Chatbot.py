@@ -412,7 +412,7 @@ def train_the_model():
 	torch.save(chat_model,'model.pth')
 
 def test_the_model():
-	chat_model = torch.load('model.pth')
+	chat_model = torch.load('model.pth',map_location=lambda storage, loc: storage)
 	evaluateInput(chat_model,index2word,word2index)
 
 if __name__ == '__main__':
