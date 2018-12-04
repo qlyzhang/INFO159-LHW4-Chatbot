@@ -426,3 +426,5 @@ evaluateInput(chat_model,index2word,word2index)
 # #### https://github.com/Conchylicultor/DeepQA/
 # #### https://pytorch.org/tutorials/beginner/chatbot_tutorial.html
 # #### https://github.com/Currie32/Chatbot-from-Movie-Dialogue/
+
+# def parse_options(argv):

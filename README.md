@@ -30,24 +30,52 @@ python3 LHW4_Seq2Seq Chatbot.py
 ```
 python3 LHW4_Seq2Seq Chatbot.py --pretrained
 ```
-* See the jupyter notebook [here](https://github.com/qlyzhang/INFO159-LHW4-Chatbot/)
+* See the jupyter notebook [here](https://github.com/qlyzhang/INFO159-LHW4-Chatbot/blob/master/LHW4_Seq2Seq%20Chatbot.ipynb)
 
 
 ## What we do
 ### Data Pre-processing
+First, we do some data cleaning and remove some weird symbols. Then, we sort the data according to `movieID` and `lineID`.We reorganized the data into pairs of QandAs and remove the pair if there are infrequent words in it.
 #### Read Data
+A dataframe is created to organize the data. We separate data into 5 columns: `lineID`,  `characterID`,  `movieID`,   `character name`,  `text of the utterance`
 #### Clean Data
+Use regular expressions to replace some weird strings into space.
 #### Sort Data
+Sort the data according to `movieID` and `lineID`
 #### Load Q&A Data
+Reorganized the `text of the utterance` data into pairs of Q&As
 #### Count Data
+Count how many times each word occurs in our clean data
 #### Trim and Index Data
+Trim the Q&A pair if there are infrequent words in it. Make two dictionaries `word2index` and `index2word`
 #### Prepare Data for Model
+Convert the dictionaries into tensors with PyTorch to prepare for model.
 
 ### Model
+Use an Encoder-Decoder Recurrent Neural Network Model.
 
 ## Our Result
 
+### Some good result
+Human > hello
 
-Human >
+Bot > hi
 
-Bot >
+Human > How are you ?
+
+Bot > fine
+
+Human > Where are you from?
+
+Bot > south america.
+
+Human > hjvksbv asdkb
+
+Bot > Sorry, I don't know what you mean
+
+### Some unexpected result
+Human > Are you my friend?
+
+Bot > i m fine
+
+Human > 
